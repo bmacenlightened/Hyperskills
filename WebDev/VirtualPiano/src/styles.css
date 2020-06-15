@@ -1,0 +1,34 @@
+.white-keys kbd {
+    background-color: #fff;
+    display: inline-block;
+    width: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: -4px;
+    border: 1px solid #ddd;
+    padding-top: 5rem;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: #000;
+    width: 2rem;
+    padding: 2.5rem 0 1rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.black-keys {
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    position: relative;
+    width: 35rem;
+    margin: 10% auto;
+}
+
+body {
+    background: aqua;
+}
